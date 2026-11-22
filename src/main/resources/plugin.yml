@@ -1,0 +1,39 @@
+name: AAC
+version: 4.3.7
+api-version: 1.13
+load: STARTUP
+main: me.konsolas.aac.AAC
+author: konsolas
+description: Powerful anti-cheat solution for Spigot servers.
+website: https://www.spigotmc.org/resources/6442/
+depend: [ProtocolLib]
+softdepend: [ViaVersion, ProtocolSupport, PlaceholderAPI]
+commands:
+   aac:
+      description: Base command
+      usage: /<command> <reload|status|manage|notify|moderator|verbose|banvl>
+permissions:
+   AAC.bypass:
+      description: Be exempt from AAC's checks.
+      default: op
+   AAC.reload:
+      description: Reload all of AAC's components from the configuration file.
+      default: op
+   AAC.status:
+      description: View general information about AAC's status.
+      default: op
+   AAC.manage:
+      description: Enable or disable checks, mitigations, and actions in real time.
+      default: op
+   AAC.notify:
+      description: Send and receive AAC notifications.
+      default: op
+   AAC.moderator:
+      description: View violation levels of players.
+      default: op
+   AAC.verbose:
+      description: View AAC's debug messages.
+      default: op
+   AAC.banvl:
+      description: Change a player's banvl
+      default: op
