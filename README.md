@@ -30,6 +30,9 @@
   <img src="assets/divider.svg" alt="" width="720" />
 </p>
 
+This is NOT a Remake or Recreation.
+
+
 ## How to build
 
 ### Prerequisites
